@@ -1,0 +1,70 @@
+== Introdução
+
+O servidor HTTP é um software que processa as requisições dos clientes e entrega os recursos solicitados, como páginas web, imagens, vídeos, entre outros. Ele é fundamental para a comunicação entre o cliente e o servidor, permitindo que os usuários acessem os conteúdos disponíveis na internet. Existem diversos servidores HTTP disponíveis para o sistema operacional Linux, cada um com suas características, vantagens e desvantagens. Neste artigo, vamos explorar os principais servidores HTTP utilizados no Linux, como Apache, Nginx, Lighttpd, Caddy e OpenLiteSpeed, para ajudar você a escolher o melhor servidor para suas necessidades.
+
+Podemos abordar servidor HTTP no Debian GNU/Linux de forma progressiva. Eis um roteiro possível:
+
+=== Conceitos básicos
+
+* O que é um servidor HTTP
+* Diferença entre HTTP e HTTPS
+* Porta 80 vs 443
+* Cliente vs servidor (_browser_ vs _web server_)
+
+=== Principais servidores HTTP no Debian
+
+* Apache (tradicional, muito usado em ensino)
+* Nginx (leve e rápido)
+* Lighttpd (simples)
+* Caddy (automático com HTTPS)
+
+=== Instalação no Debian
+
+* Instalar pacote
+* Verificar serviço systemd
+* Testar no navegador
+* Estrutura de diretórios
+
+=== Configuração básica
+
+* Virtual Hosts
+* DocumentRoot
+* Logs (access.log e error.log)
+* Permissões
+
+=== Conteúdo estático
+
+* HTML simples
+* CSS / imagens
+* Index automático
+
+=== Conteúdo dinâmico
+
+* PHP
+* CGI
+* Proxy reverso
+* Aplicações (Python, Node, etc.)
+
+=== HTTPS
+
+* Certificado autoassinado
+* Let's Encrypt
+* Redirecionamento HTTP → HTTPS
+
+=== Casos práticos
+
+* Servidor para laboratório
+* Servidor com hostname FQDN
+* Dois sites no mesmo servidor
+* Servidor atrás de proxy reverso
+
+Podemos começar por qualquer um dos seguintes pontos:
+
+* Instalar Apache no Debian
+* Instalar Nginx no Debian
+* Criar primeiro site
+* Virtual hosts
+* HTTPS com Let's Encrypt
+* Comparação Apache vs Nginx
+* Configuração de PHP
+

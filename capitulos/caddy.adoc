@@ -1,0 +1,34 @@
+== Caddy
+
+O Caddy é um servidor HTTP moderno e fácil de usar, conhecido por sua simplicidade e recursos avançados. Ele foi projetado para ser fácil de configurar e gerenciar, tornando-se uma escolha popular para desenvolvedores e administradores de sistemas que desejam uma solução rápida e eficiente para hospedar seus sites e aplicativos. O Caddy suporta HTTPS nativamente, o que significa que ele pode fornecer conexões seguras sem a necessidade de configuração adicional. Ele também possui um sistema de configuração baseado em arquivos, o que facilita a personalização do comportamento do servidor. O Caddy é escrito em Go, o que contribui para sua velocidade e eficiência. Além disso, ele possui uma comunidade ativa de usuários e desenvolvedores, o que significa que há uma abundância de recursos, documentação e suporte disponíveis para aqueles que utilizam o Caddy como seu servidor HTTP.
+
+=== Instalação
+
+A instalação do Caddy é simples e pode ser feita de várias maneiras, dependendo do sistema operacional que você está usando. A maneira mais comum de instalar o Caddy é usando o gerenciador de pacotes do seu sistema. Por exemplo, em sistemas baseados em Debian, você pode usar o seguinte comando:
+
+```
+sudo apt install caddy
+```
+
+Em sistemas baseados em Red Hat, você pode usar:
+```
+sudo dnf install caddy
+```
+
+=== Configuração
+
+A configuração do Caddy é feita através de um arquivo chamado `Caddyfile`. Este arquivo é onde você define as regras e comportamentos do servidor. Um exemplo simples de um `Caddyfile` para hospedar um site seria:
+
+```
+example.com { <1>
+    root * /var/www/html <2>
+    file_server <3>
+}
+```
+
+<1> Define o domínio ou endereço IP para o qual o servidor irá responder.
+<2> Especifica o diretório raiz onde os arquivos do site estão localizados.
+<3> Ativa o servidor de arquivos para servir os arquivos do diretório raiz.
+
+
+== Gerenciamento de serviço

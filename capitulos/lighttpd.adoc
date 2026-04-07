@@ -1,0 +1,10 @@
+== Lighttpd
+
+O Lighttpd é um servidor HTTP leve e eficiente, projetado para oferecer alto desempenho e baixo consumo de recursos. Ele é uma escolha popular para sites de alto tráfego e aplicações web que exigem uma resposta rápida. O Lighttpd é conhecido por sua arquitetura modular, que permite aos administradores personalizar o servidor de acordo com suas necessidades específicas. Ele suporta uma variedade de recursos avançados, como FastCGI, SCGI e WebSocket, o que o torna adequado para uma ampla gama de aplicações web. O Lighttpd é escrito em C, o que contribui para sua velocidade e eficiência. Além disso, ele possui uma comunidade ativa de usuários e desenvolvedores, o que significa que há uma abundância de recursos, documentação e suporte disponíveis para aqueles que utilizam o Lighttpd como seu servidor HTTP.
+
+== Instalação
+
+== Configuração
+
+== Gerenciamento de serviço
+
