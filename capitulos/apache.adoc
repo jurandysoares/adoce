@@ -2,6 +2,6 @@
 
 O Apache HTTP Server, comumente conhecido como Apache, é um dos servidores HTTP mais populares e amplamente utilizados no mundo. Ele foi desenvolvido pela Apache Software Foundation e é conhecido por sua estabilidade, flexibilidade e ampla gama de recursos. O Apache é um servidor de código aberto, o que significa que é gratuito para uso e pode ser modificado por qualquer pessoa. Ele suporta uma variedade de sistemas operacionais, incluindo Linux, Windows e macOS, e é compatível com uma ampla gama de linguagens de programação, como PHP, Python e Perl. O Apache é altamente configurável, permitindo que os administradores personalizem o comportamento do servidor de acordo com suas necessidades específicas. Ele também possui uma grande comunidade de usuários e desenvolvedores, o que significa que há uma abundância de recursos, documentação e suporte disponíveis para aqueles que utilizam o Apache como seu servidor HTTP.
 
-== Instalação
-== Configuração
-== Gerenciamento de serviço
+=== Instalação
+=== Configuração
+=== Gerenciamento de serviço
